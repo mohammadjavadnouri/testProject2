@@ -1,0 +1,81 @@
+/* Fifth Row********************************* */
+.fifth {
+  place-items: center;
+  background-color: rgb(1, 137, 255);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.fifth__text {
+  margin: 10px;
+  color: white;
+}
+
+.fifth form {
+  position: relative;
+}
+
+.fifth input {
+  width: 100%;
+  height: 3em;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.fifth button {
+  position: absolute;
+  left: 5px;
+  top: 0.5em;
+  border: none;
+  height: 2em;
+  width: 6em;
+  border-radius: 8px;
+  background-color: rgb(23, 148, 254);
+  font-weight: bold;
+  color: white;
+}
+
+.fifth button:hover {
+  cursor: pointer;
+}
+
+.fifth__storeicons {
+  display: flex;
+  width: 55%;
+  flex-flow: nowrap;
+}
+
+.fifth__storeicons:hover {
+  cursor: pointer;
+}
+
+.fifth__storeicons img {
+  width: 50%;
+  margin: 5px;
+  height: auto;
+  border-radius: 1vw;
+}
+
+.fifth__leftimage {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: auto;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 900px) {
+  .fifth__leftimage {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .fifth__leftimage {
+    width: 200px;
+    height: auto;
+  }
+}

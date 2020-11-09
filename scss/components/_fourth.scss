@@ -1,0 +1,53 @@
+/* Fourth Row********************************* */
+.fourth {
+  margin: 10px;
+}
+.fourth__Header {
+  color: rgb(23, 148, 254);
+  border-right: solid green;
+  text-indent: 10px;
+}
+
+.fourth__Content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: space-between;
+}
+
+.fourth__table {
+  padding: 1vw;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.fourth__figure {
+  margin: 2.5vw;
+  justify-self: center;
+}
+
+.fourth__figcaption {
+  padding-top: 2vw;
+  justify-self: center;
+}
+
+.fourth i {
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px rgb(170, 215, 255);
+  padding: 15px;
+  font-size: 3em;
+  color: gray;
+  transition: 0.5s ease;
+}
+
+.fourth i:hover {
+  font-size: 3em;
+  cursor: pointer;
+  color: blue;
+  box-shadow: 1px 1px 10px 1px blue;
+}
+
+.fourth__left p {
+  margin: 0%;
+  align-self: center;
+  justify-self: center;
+}
