@@ -1,0 +1,10 @@
+{
+  "name": "testProject2",
+  "version": "1.0.0",
+  "description": "This is the second project I am doing as a Trainee in Nahira Co",
+  "main": "index.js",
+  "repository": "https://github.com/mohammadjavadnouri/testProject2.git",
+  "author": "Mohammadjavad Nouri <mjnouri.ir>",
+  "license": "MIT",
+  "private": null
+}
