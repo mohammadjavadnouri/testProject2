@@ -6,5 +6,8 @@
   "repository": "https://github.com/mohammadjavadnouri/testProject2.git",
   "author": "Mohammadjavad Nouri <mjnouri.ir>",
   "license": "MIT",
-  "private": null
+  "private": null,
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
