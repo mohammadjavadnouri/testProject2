@@ -13,14 +13,6 @@
   font-family: Vazir;
 }
 
-.all {
-  display: grid;
-  grid-template-rows: auto;
-  gap: 2vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
-}
-
 @media screen and (min-width: 1400px) {
   html {
     font-size: 110%;

@@ -29,9 +29,9 @@
   transition: 1s ease;
 }
 
-.custom-footer-links a {
+.custom-footer-links a:hover {
   text-decoration: none;
-  color: black;
+  color: dodgerblue;
 }
 
 .custom-footer-links {
@@ -40,7 +40,6 @@
 }
 
 .custom-footer-links:hover {
-  color: dodgerblue;
   border-right: solid green;
   text-indent: 10px;
 }

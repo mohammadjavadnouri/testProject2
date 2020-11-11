@@ -6,13 +6,6 @@
   box-sizing: border-box;
   font-family: Vazir; }
 
-.all {
-  display: grid;
-  grid-template-rows: auto;
-  gap: 2vw;
-  padding-left: 10vw;
-  padding-right: 10vw; }
-
 @media screen and (min-width: 1400px) {
   html {
     font-size: 110%; } }
@@ -20,6 +13,44 @@
 @media screen and (max-width: 648px) {
   html {
     font-size: 80%; } }
+
+.custom-nav-large {
+  color: black;
+  border-bottom: solid #ffffff;
+  transition: 1s ease; }
+
+.custom-nav-large:hover {
+  color: dodgerblue;
+  border-bottom: solid dodgerblue; }
+
+.custom-nav-small {
+  color: black;
+  border-right: solid #ffffff;
+  transition: 1s ease; }
+
+.custom-nav-small:hover {
+  color: dodgerblue;
+  border-right: solid green;
+  text-indent: 10px; }
+
+/*  footer*********************************************  */
+.custom-footer-links a {
+  text-decoration: none;
+  color: black;
+  border-right: solid #ffffff;
+  transition: 1s ease; }
+
+.custom-footer-links a:hover {
+  text-decoration: none;
+  color: dodgerblue; }
+
+.custom-footer-links {
+  border-right: solid #ffffff;
+  transition: 1s ease; }
+
+.custom-footer-links:hover {
+  border-right: solid green;
+  text-indent: 10px; }
 
 .mynav {
   display: flex;
@@ -365,42 +396,3 @@
   .footer h4,
   .footer a {
     display: none; } }
-
-.custom-nav-large {
-  color: black;
-  border-bottom: solid #ffffff;
-  transition: 1s ease; }
-
-.custom-nav-large:hover {
-  color: dodgerblue;
-  border-bottom: solid dodgerblue; }
-
-.custom-nav-small {
-  color: black;
-  border-right: solid #ffffff;
-  transition: 1s ease; }
-
-.custom-nav-small:hover {
-  color: dodgerblue;
-  border-right: solid green;
-  text-indent: 10px; }
-
-/*  footer*********************************************  */
-.custom-footer-links a {
-  text-decoration: none;
-  color: black;
-  border-right: solid #ffffff;
-  transition: 1s ease; }
-
-.custom-footer-links a {
-  text-decoration: none;
-  color: black; }
-
-.custom-footer-links {
-  border-right: solid #ffffff;
-  transition: 1s ease; }
-
-.custom-footer-links:hover {
-  color: dodgerblue;
-  border-right: solid green;
-  text-indent: 10px; }
