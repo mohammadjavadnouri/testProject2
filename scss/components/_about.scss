@@ -1,3 +1,46 @@
-.navbarcustom {
-  color: red;
+.custom-nav-large {
+  color: black;
+  border-bottom: solid #ffffff;
+  transition: 1s ease;
+}
+
+.custom-nav-large:hover {
+  color: dodgerblue;
+  border-bottom: solid dodgerblue;
+}
+
+.custom-nav-small {
+  color: black;
+  border-right: solid #ffffff;
+  transition: 1s ease;
+}
+
+.custom-nav-small:hover {
+  color: dodgerblue;
+  border-right: solid green;
+  text-indent: 10px;
+}
+
+/*  footer*********************************************  */
+.custom-footer-links a {
+  text-decoration: none;
+  color: black;
+  border-right: solid #ffffff;
+  transition: 1s ease;
+}
+
+.custom-footer-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-footer-links {
+  border-right: solid #ffffff;
+  transition: 1s ease;
+}
+
+.custom-footer-links:hover {
+  color: dodgerblue;
+  border-right: solid green;
+  text-indent: 10px;
 }

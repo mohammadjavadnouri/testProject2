@@ -1,4 +1,4 @@
-.nav {
+.mynav {
   display: flex;
   text-align: right;
   justify-content: space-between;
@@ -8,21 +8,20 @@
   height: auto;
 }
 
-.nav a {
+.mynav a {
   border: none;
   border-bottom: solid #ffffff;
   text-decoration: none;
-  transition: 1s;
-  transition-timing-function: ease;
+  transition: 1s ease;
   vertical-align: middle;
   margin: 1vw;
   white-space: nowrap;
   color: black;
 }
 
-.nav a:hover {
-  border-bottom: solid rgb(23, 148, 254);
-  color: rgb(23, 148, 254);
+.mynav a:hover {
+  border-bottom: solid dodgerblue;
+  color: dodgerblue;
   cursor: pointer;
 }
 
@@ -31,13 +30,13 @@
 }
 
 @media screen and (max-width: 648px) {
-  .nav {
+  .mynav {
     display: inline;
   }
-  .nav a {
+  .mynav a {
     display: none;
   }
-  .nav a.nav__icon {
+  .mynav a.nav__icon {
     float: none;
     display: block;
   }
@@ -47,19 +46,19 @@
 }
 
 @media screen and (max-width: 648px) {
-  .nav.responsive {
+  .mynav.responsive {
     position: relative;
   }
-  .nav.responsive .nav__icon {
+  .mynav.responsive .nav__icon {
     position: center;
     color: red;
   }
-  .nav.responsive a {
+  .mynav.responsive a {
     float: none;
     display: block;
     text-align: right;
   }
-  .nav.responsive .nav__button {
+  .mynav.responsive .nav__button {
     width: 50%;
     height: auto;
     display: block;
