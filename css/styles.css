@@ -366,3 +366,12 @@
   .footer h4,
   .footer a {
     display: none; } }
+
+.navbar-custom button {
+  color: #1794fe;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  width: 100%;
+  height: auto; }
