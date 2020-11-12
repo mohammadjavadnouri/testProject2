@@ -1,35 +1,36 @@
 /* Sixth Row********************************* */
+.index {
+  .sixth h1 {
+    color: rgb(23, 148, 254);
+    border-right: solid green;
+  }
 
-.sixth h1 {
-  color: rgb(23, 148, 254);
-  border-right: solid green;
-}
+  .sixth form {
+    position: relative;
+  }
 
-.sixth form {
-  position: relative;
-}
+  .sixth__right {
+    align-self: center;
+  }
 
-.sixth__right {
-  align-self: center;
-}
+  .sixth input {
+    width: 100%;
+    height: 3em;
+    border-radius: 8px;
+    outline: none;
+    border: solid rgb(238, 237, 237);
+  }
 
-.sixth input {
-  width: 100%;
-  height: 3em;
-  border-radius: 8px;
-  outline: none;
-  border: solid rgb(238, 237, 237);
-}
-
-.sixth button {
-  position: absolute;
-  left: 5px;
-  top: 0.5em;
-  border: none;
-  height: 2em;
-  width: 9em;
-  border-radius: 8px;
-  background-color: rgb(23, 148, 254);
-  font-weight: bold;
-  color: white;
+  .sixth button {
+    position: absolute;
+    left: 5px;
+    top: 0.5em;
+    border: none;
+    height: 2em;
+    width: 9em;
+    border-radius: 8px;
+    background-color: rgb(23, 148, 254);
+    font-weight: bold;
+    color: white;
+  }
 }

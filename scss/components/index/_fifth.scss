@@ -1,61 +1,63 @@
 /* Fifth Row********************************* */
-.fifth {
-  background-color: rgb(1, 137, 255);
-}
+.index {
+  .fifth {
+    background-color: rgb(1, 137, 255);
+  }
 
-.fifth__right {
-  color: white;
-  align-self: center;
-}
+  .fifth__right {
+    color: white;
+    align-self: center;
+  }
 
-.fifth form {
-  position: relative;
-}
+  .fifth form {
+    position: relative;
+  }
 
-.fifth input {
-  width: 100%;
-  height: 3em;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-}
+  .fifth input {
+    width: 100%;
+    height: 3em;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
 
-.fifth button {
-  position: absolute;
-  left: 5px;
-  top: 0.5em;
-  border: none;
-  height: 2em;
-  width: 6em;
-  border-radius: 8px;
-  background-color: rgb(23, 148, 254);
-  font-weight: bold;
-  color: white;
-}
+  .fifth button {
+    position: absolute;
+    left: 5px;
+    top: 0.5em;
+    border: none;
+    height: 2em;
+    width: 6em;
+    border-radius: 8px;
+    background-color: rgb(23, 148, 254);
+    font-weight: bold;
+    color: white;
+  }
 
-.fifth button:hover {
-  cursor: pointer;
-}
+  .fifth button:hover {
+    cursor: pointer;
+  }
 
-.fifth__storeicons {
-  display: flex;
-  width: 55%;
-  flex-flow: nowrap;
-}
+  .fifth__storeicons {
+    display: flex;
+    width: 55%;
+    flex-flow: nowrap;
+  }
 
-.fifth__storeicons:hover {
-  cursor: pointer;
-}
+  .fifth__storeicons:hover {
+    cursor: pointer;
+  }
 
-.fifth__storeicons img {
-  width: 50%;
-  margin: 5px;
-  height: auto;
-  border-radius: 1vw;
-}
+  .fifth__storeicons img {
+    width: 50%;
+    margin: 5px;
+    height: auto;
+    border-radius: 1vw;
+  }
 
-.fifth__leftimage {
-  margin-top: 10px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  .fifth__leftimage {
+    margin-top: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
 }

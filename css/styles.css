@@ -52,16 +52,16 @@
   border-right: solid green;
   text-indent: 10px; }
 
-.mynav {
+.index .mynav {
   display: flex;
   text-align: right;
   justify-content: space-between; }
 
-.nav__image {
+.index .nav__image {
   width: auto;
   height: auto; }
 
-.mynav a {
+.index .mynav a {
   border: none;
   border-bottom: solid #ffffff;
   text-decoration: none;
@@ -71,41 +71,41 @@
   white-space: nowrap;
   color: black; }
 
-.mynav a:hover {
+.index .mynav a:hover {
   border-bottom: solid dodgerblue;
   color: dodgerblue;
   cursor: pointer; }
 
-.nav__icon {
+.index .nav__icon {
   display: none; }
 
 @media screen and (max-width: 648px) {
-  .mynav {
+  .index .mynav {
     display: inline; }
-  .mynav a {
+  .index .mynav a {
     display: none; }
-  .mynav a.nav__icon {
+  .index .mynav a.nav__icon {
     float: none;
     display: block; }
-  .nav__button {
+  .index .nav__button {
     display: none; } }
 
 @media screen and (max-width: 648px) {
-  .mynav.responsive {
+  .index .mynav.responsive {
     position: relative; }
-  .mynav.responsive .nav__icon {
+  .index .mynav.responsive .nav__icon {
     position: center;
     color: red; }
-  .mynav.responsive a {
+  .index .mynav.responsive a {
     float: none;
     display: block;
     text-align: right; }
-  .mynav.responsive .nav__button {
+  .index .mynav.responsive .nav__button {
     width: 50%;
     height: auto;
     display: block; } }
 
-.nav__button {
+.index .nav__button {
   color: #1794fe;
   background-color: lightblue;
   border: none;
@@ -114,19 +114,19 @@
   width: 100%;
   height: auto; }
 
-.nav__button:hover {
+.index .nav__button:hover {
   background-color: #1794fe;
   cursor: pointer;
   color: white; }
 
 /* second Row********************************* */
-.second__right {
+.index .second__right {
   align-self: center; }
 
-.second__title {
+.index .second__title {
   color: #1794fe; }
 
-.second__button {
+.index .second__button {
   border-radius: 5px;
   border-color: #1794fe;
   border-width: 1px;
@@ -135,12 +135,12 @@
   padding: 10px 25px;
   background-color: white; }
 
-.second__button:hover {
+.index .second__button:hover {
   cursor: pointer;
   background-color: #1794fe;
   color: white; }
 
-.second__image {
+.index .second__image {
   background-repeat: no-repeat;
   object-fit: scale-down;
   transition: 0.5s;
@@ -149,17 +149,17 @@
   height: auto;
   align-items: center; }
 
-.second__image:hover {
+.index .second__image:hover {
   cursor: pointer;
   transform: scale(1.1) rotate(-3deg); }
 
 /* third Row********************************* */
-.third {
+.index .third {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center; }
 
-.third__image {
+.index .third__image {
   background-repeat: no-repeat;
   padding: 2rem;
   width: 100%;
@@ -167,33 +167,33 @@
   transition: 0.5s;
   transition-timing-function: ease; }
 
-.third__image:hover {
+.index .third__image:hover {
   cursor: pointer;
   transform: scale(1.1) rotate(3deg); }
 
-.third__left {
+.index .third__left {
   align-self: center; }
 
-.third__title {
+.index .third__title {
   color: #1794fe;
   border-right: solid green;
   text-indent: 10px; }
 
-.third__lower {
+.index .third__lower {
   display: flex;
   justify-content: space-between;
   align-content: center;
   text-align: center;
   padding-top: 5vw; }
 
-.third__figure {
+.index .third__figure {
   border: 0;
   margin: 0; }
 
-.third__figcaption {
+.index .third__figcaption {
   padding-top: 1.5vw; }
 
-.third__lowerimage {
+.index .third__lowerimage {
   border-radius: 5px;
   box-shadow: 1px 1px 10px 1px #aad7ff;
   padding: 10px;
@@ -201,42 +201,42 @@
   height: 3rem; }
 
 /* Fourth Row********************************* */
-.fourth__Header {
+.index .fourth__Header {
   color: #1794fe;
   border-right: solid green;
   text-indent: 10px; }
 
-.fourth__img {
+.index .fourth__img {
   width: 40%;
   height: auto; }
 
-.fourth__left p {
+.index .fourth__left p {
   margin: 0%;
   align-self: center;
   justify-self: center; }
 
-.fourth__lefttxt {
+.index .fourth__lefttxt {
   padding: 5px; }
 
 /* Fifth Row********************************* */
-.fifth {
+.index .fifth {
   background-color: #0189ff; }
 
-.fifth__right {
+.index .fifth__right {
   color: white;
   align-self: center; }
 
-.fifth form {
+.index .fifth form {
   position: relative; }
 
-.fifth input {
+.index .fifth input {
   width: 100%;
   height: 3em;
   border-radius: 8px;
   border: none;
   outline: none; }
 
-.fifth button {
+.index .fifth button {
   position: absolute;
   left: 5px;
   top: 0.5em;
@@ -248,47 +248,47 @@
   font-weight: bold;
   color: white; }
 
-.fifth button:hover {
+.index .fifth button:hover {
   cursor: pointer; }
 
-.fifth__storeicons {
+.index .fifth__storeicons {
   display: flex;
   width: 55%;
   flex-flow: nowrap; }
 
-.fifth__storeicons:hover {
+.index .fifth__storeicons:hover {
   cursor: pointer; }
 
-.fifth__storeicons img {
+.index .fifth__storeicons img {
   width: 50%;
   margin: 5px;
   height: auto;
   border-radius: 1vw; }
 
-.fifth__leftimage {
+.index .fifth__leftimage {
   margin-top: 10px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px; }
 
 /* Sixth Row********************************* */
-.sixth h1 {
+.index .sixth h1 {
   color: #1794fe;
   border-right: solid green; }
 
-.sixth form {
+.index .sixth form {
   position: relative; }
 
-.sixth__right {
+.index .sixth__right {
   align-self: center; }
 
-.sixth input {
+.index .sixth input {
   width: 100%;
   height: 3em;
   border-radius: 8px;
   outline: none;
   border: solid #eeeded; }
 
-.sixth button {
+.index .sixth button {
   position: absolute;
   left: 5px;
   top: 0.5em;
@@ -301,50 +301,108 @@
   color: white; }
 
 /* Seventh Row********************************* */
-.seventh {
+.index .seventh {
   background-color: #1794fe; }
 
-.seventh p,
-.seventh h2 {
+.index .seventh p,
+.index .seventh h2 {
   color: white; }
 
 /* Footer *************************** */
-.footer {
+.index .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center; }
 
-.footer i {
+.index .footer i {
   color: blue;
   font-size: 2em;
   margin: 0.5rem;
   text-decoration: none;
   place-content: center; }
 
-.footer__storeimages {
+.index .footer__storeimages {
   width: auto;
   height: 2rem;
   border-radius: 5px; }
 
-.footer h5,
-.footer p,
-.footer h4,
-.footer a {
+.index .footer h5,
+.index .footer p,
+.index .footer h4,
+.index .footer a {
   transition: 0.5s ease;
   border-right: solid white;
   padding-right: 5px; }
 
-.footer p:hover {
+.index .footer p:hover {
   border-right: solid green;
   color: #1794fe;
   cursor: pointer; }
 
 @media screen and (max-width: 648px) {
-  .footer {
+  .index .footer {
     display: grid;
     grid-template-columns: 1fr; }
-  .footer h5,
-  .footer p,
-  .footer h4,
-  .footer a {
+  .index .footer h5,
+  .index .footer p,
+  .index .footer h4,
+  .index .footer a {
     display: none; } }
+
+.about {
+  /*********************************************************************************/
+  /*********************************************************************************/
+  /*********************************************************************************/
+  /*********************************************************************************/
+  /*********************************************************************************/ }
+  .about .second__right {
+    align-self: center; }
+  .about .second__right h2 {
+    color: #1794fe; }
+  .about .second__right form {
+    position: relative; }
+  .about .second__right input {
+    width: 100%;
+    height: 3em;
+    border-radius: 8px;
+    outline: none;
+    border: solid #eeeded; }
+  .about .second__right button {
+    position: absolute;
+    left: 1em;
+    top: 0.5em;
+    border: none;
+    height: 2em;
+    width: 8em;
+    border-radius: 8px;
+    background-color: #1794fe;
+    font-weight: bold;
+    color: white; }
+  .about .second__image {
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    width: 100%;
+    height: auto;
+    align-items: center; }
+  .about .third {
+    background-color: #1794fe;
+    color: white; }
+  .about .fourth h3 {
+    color: #1794fe; }
+  .about .fifth .img1 {
+    width: 5.5em;
+    height: auto; }
+  .about .fifth .img2 {
+    width: 4em;
+    height: auto; }
+  .about .sixth {
+    background-color: #1794fe; }
+  .about .sixth p,
+  .about .sixth h2 {
+    color: white; }
+  .about .footer__storeimages {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px; }

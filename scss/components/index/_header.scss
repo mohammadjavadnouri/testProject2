@@ -1,82 +1,84 @@
-.mynav {
-  display: flex;
-  text-align: right;
-  justify-content: space-between;
-}
-.nav__image {
-  width: auto;
-  height: auto;
-}
-
-.mynav a {
-  border: none;
-  border-bottom: solid #ffffff;
-  text-decoration: none;
-  transition: 1s ease;
-  vertical-align: middle;
-  margin: 1vw;
-  white-space: nowrap;
-  color: black;
-}
-
-.mynav a:hover {
-  border-bottom: solid dodgerblue;
-  color: dodgerblue;
-  cursor: pointer;
-}
-
-.nav__icon {
-  display: none;
-}
-
-@media screen and (max-width: 648px) {
+.index {
   .mynav {
-    display: inline;
-  }
-  .mynav a {
-    display: none;
-  }
-  .mynav a.nav__icon {
-    float: none;
-    display: block;
-  }
-  .nav__button {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 648px) {
-  .mynav.responsive {
-    position: relative;
-  }
-  .mynav.responsive .nav__icon {
-    position: center;
-    color: red;
-  }
-  .mynav.responsive a {
-    float: none;
-    display: block;
+    display: flex;
     text-align: right;
+    justify-content: space-between;
   }
-  .mynav.responsive .nav__button {
-    width: 50%;
+  .nav__image {
+    width: auto;
     height: auto;
-    display: block;
   }
-}
 
-.nav__button {
-  color: rgb(23, 148, 254);
-  background-color: lightblue;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 25px;
-  width: 100%;
-  height: auto;
-}
+  .mynav a {
+    border: none;
+    border-bottom: solid #ffffff;
+    text-decoration: none;
+    transition: 1s ease;
+    vertical-align: middle;
+    margin: 1vw;
+    white-space: nowrap;
+    color: black;
+  }
 
-.nav__button:hover {
-  background-color: rgb(23, 148, 254);
-  cursor: pointer;
-  color: white;
+  .mynav a:hover {
+    border-bottom: solid dodgerblue;
+    color: dodgerblue;
+    cursor: pointer;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 648px) {
+    .mynav {
+      display: inline;
+    }
+    .mynav a {
+      display: none;
+    }
+    .mynav a.nav__icon {
+      float: none;
+      display: block;
+    }
+    .nav__button {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 648px) {
+    .mynav.responsive {
+      position: relative;
+    }
+    .mynav.responsive .nav__icon {
+      position: center;
+      color: red;
+    }
+    .mynav.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+    .mynav.responsive .nav__button {
+      width: 50%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .nav__button {
+    color: rgb(23, 148, 254);
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    height: auto;
+  }
+
+  .nav__button:hover {
+    background-color: rgb(23, 148, 254);
+    cursor: pointer;
+    color: white;
+  }
 }
