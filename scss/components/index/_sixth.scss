@@ -1,10 +1,4 @@
 /* Sixth Row********************************* */
-.sixth {
-  place-items: center;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
 
 .sixth h1 {
   color: rgb(23, 148, 254);
@@ -13,6 +7,10 @@
 
 .sixth form {
   position: relative;
+}
+
+.sixth__right {
+  align-self: center;
 }
 
 .sixth input {
@@ -34,9 +32,4 @@
   background-color: rgb(23, 148, 254);
   font-weight: bold;
   color: white;
-}
-
-.sixth img {
-  width: 100%;
-  height: auto;
 }

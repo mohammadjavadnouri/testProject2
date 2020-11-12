@@ -1,11 +1,5 @@
 /* second Row********************************* */
 
-.second {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
 .second__right {
   align-self: center;
 }

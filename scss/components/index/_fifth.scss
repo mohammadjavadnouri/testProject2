@@ -1,15 +1,11 @@
 /* Fifth Row********************************* */
 .fifth {
-  place-items: center;
   background-color: rgb(1, 137, 255);
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.fifth__text {
-  margin: 10px;
+.fifth__right {
   color: white;
+  align-self: center;
 }
 
 .fifth form {
@@ -59,23 +55,7 @@
 }
 
 .fifth__leftimage {
+  margin-top: 10px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 100%;
-  height: auto;
-  align-self: flex-start;
-}
-
-@media screen and (min-width: 900px) {
-  .fifth__leftimage {
-    width: 300px;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 648px) {
-  .fifth__leftimage {
-    width: 200px;
-    height: auto;
-  }
 }

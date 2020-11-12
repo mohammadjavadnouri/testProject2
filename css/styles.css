@@ -120,11 +120,6 @@
   color: white; }
 
 /* second Row********************************* */
-.second {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px; }
-
 .second__right {
   align-self: center; }
 
@@ -176,6 +171,9 @@
   cursor: pointer;
   transform: scale(1.1) rotate(3deg); }
 
+.third__left {
+  align-self: center; }
+
 .third__title {
   color: #1794fe;
   border-right: solid green;
@@ -208,23 +206,9 @@
   border-right: solid green;
   text-indent: 10px; }
 
-.fourth__Content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px; }
-
-.fourth__options {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-  place-items: center; }
-
-.fourth__options img {
-  width: 10rem;
-  height: 10rem; }
-
-@media screen and (max-width: 648px) {
-  .fourth__options {
-    display: flex; } }
+.fourth__img {
+  width: 40%;
+  height: auto; }
 
 .fourth__left p {
   margin: 0%;
@@ -236,15 +220,11 @@
 
 /* Fifth Row********************************* */
 .fifth {
-  place-items: center;
-  background-color: #0189ff;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  background-color: #0189ff; }
 
-.fifth__text {
-  margin: 10px;
-  color: white; }
+.fifth__right {
+  color: white;
+  align-self: center; }
 
 .fifth form {
   position: relative; }
@@ -286,35 +266,20 @@
   border-radius: 1vw; }
 
 .fifth__leftimage {
+  margin-top: 10px;
   border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  width: 100%;
-  height: auto;
-  align-self: flex-start; }
-
-@media screen and (min-width: 900px) {
-  .fifth__leftimage {
-    width: 300px;
-    height: auto; } }
-
-@media screen and (max-width: 648px) {
-  .fifth__leftimage {
-    width: 200px;
-    height: auto; } }
+  border-top-left-radius: 20px; }
 
 /* Sixth Row********************************* */
-.sixth {
-  place-items: center;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
-
 .sixth h1 {
   color: #1794fe;
   border-right: solid green; }
 
 .sixth form {
   position: relative; }
+
+.sixth__right {
+  align-self: center; }
 
 .sixth input {
   width: 100%;
@@ -335,26 +300,13 @@
   font-weight: bold;
   color: white; }
 
-.sixth img {
-  width: 100%;
-  height: auto; }
-
 /* Seventh Row********************************* */
 .seventh {
-  background-color: #1794fe;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-items: center;
-  align-items: center; }
+  background-color: #1794fe; }
 
 .seventh p,
 .seventh h2 {
   color: white; }
-
-.seventh img {
-  width: 100%;
-  height: auto; }
 
 /* Footer *************************** */
 .footer {
