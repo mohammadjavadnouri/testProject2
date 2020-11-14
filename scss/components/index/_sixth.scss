@@ -1,5 +1,14 @@
 /* Sixth Row********************************* */
 .index {
+  .sixth {
+    border-radius: 3vw;
+    box-shadow: 1px 1px 10px 1px rgb(170, 215, 255);
+    background-image: url("../assets/Path15631.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -30px;
+  }
+
   .sixth h1 {
     color: rgb(23, 148, 254);
     border-right: solid green;
@@ -27,7 +36,7 @@
     top: 0.5em;
     border: none;
     height: 2em;
-    width: 9em;
+    width: 7em;
     border-radius: 8px;
     background-color: rgb(23, 148, 254);
     font-weight: bold;
