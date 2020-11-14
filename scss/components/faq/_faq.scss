@@ -1,0 +1,42 @@
+.faq {
+  .second {
+    background-color: rgb(23, 148, 254);
+    color: white;
+  }
+  /*********************************************************************************/
+  .fourth__img {
+    width: 15em;
+    height: auto;
+  }
+  /*********************************************************************************/
+  .fifth {
+    .card {
+      border: none;
+      text-indent: 5vw;
+    }
+
+    .card-header {
+      background-color: white;
+      border: none;
+    }
+    .card-body {
+      text-indent: 2vw;
+    }
+  }
+  /*********************************************************************************/
+  .sixth {
+    background-color: rgb(23, 148, 254);
+  }
+
+  .sixth p,
+  .sixth h2 {
+    color: white;
+  }
+
+  /*********************************************************************************/
+  .footer__storeimages {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+  }
+}

@@ -420,3 +420,32 @@
     width: auto;
     height: 2rem;
     border-radius: 5px; }
+
+.faq {
+  /*********************************************************************************/
+  /*********************************************************************************/
+  /*********************************************************************************/
+  /*********************************************************************************/ }
+  .faq .second {
+    background-color: #1794fe;
+    color: white; }
+  .faq .fourth__img {
+    width: 15em;
+    height: auto; }
+  .faq .fifth .card {
+    border: none;
+    text-indent: 5vw; }
+  .faq .fifth .card-header {
+    background-color: white;
+    border: none; }
+  .faq .fifth .card-body {
+    text-indent: 2vw; }
+  .faq .sixth {
+    background-color: #1794fe; }
+  .faq .sixth p,
+  .faq .sixth h2 {
+    color: white; }
+  .faq .footer__storeimages {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px; }
