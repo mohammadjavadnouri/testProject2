@@ -1,0 +1,52 @@
+.contact {
+  .second {
+    background-color: rgb(23, 148, 254);
+    color: white;
+  }
+
+  /*********************************************************************************/
+  .third {
+    .btn {
+      background-color: white;
+      color: rgb(23, 148, 254);
+      width: 100%;
+    }
+  }
+  /*********************************************************************************/
+  .sixth {
+    background-color: rgb(23, 148, 254);
+  }
+
+  .sixth p,
+  .sixth h2 {
+    color: white;
+  }
+
+  .address__text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 5px;
+    position: absolute;
+    padding: 0.5em;
+    right: 25%;
+    bottom: 2em;
+    width: 50%;
+    height: auto;
+    border-radius: 1.5em;
+    background-color: white;
+    font-size: 0.75em;
+  }
+  .address__text__r {
+    line-height: 0.5em;
+  }
+  .coloring {
+    color: blue;
+  }
+
+  /*********************************************************************************/
+  .footer__storeimages {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+  }
+}

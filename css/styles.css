@@ -421,6 +421,44 @@
     height: 2rem;
     border-radius: 5px; }
 
+.contact {
+  /*********************************************************************************/
+  /*********************************************************************************/
+  /*********************************************************************************/ }
+  .contact .second {
+    background-color: #1794fe;
+    color: white; }
+  .contact .third .btn {
+    background-color: white;
+    color: #1794fe;
+    width: 100%; }
+  .contact .sixth {
+    background-color: #1794fe; }
+  .contact .sixth p,
+  .contact .sixth h2 {
+    color: white; }
+  .contact .address__text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 5px;
+    position: absolute;
+    padding: 0.5em;
+    right: 25%;
+    bottom: 2em;
+    width: 50%;
+    height: auto;
+    border-radius: 1.5em;
+    background-color: white;
+    font-size: 0.75em; }
+  .contact .address__text__r {
+    line-height: 0.5em; }
+  .contact .coloring {
+    color: blue; }
+  .contact .footer__storeimages {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px; }
+
 .faq {
   /*********************************************************************************/
   /*********************************************************************************/
