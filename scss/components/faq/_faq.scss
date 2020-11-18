@@ -1,7 +1,7 @@
 .faq {
   .second {
-    background-color: rgb(23, 148, 254);
-    color: white;
+    background-color: $myBlue;
+    color: $myWhite;
   }
   /*********************************************************************************/
   .fourth__img {
@@ -16,7 +16,7 @@
     }
 
     .card-header {
-      background-color: white;
+      background-color: $myWhite;
       border: none;
     }
 
@@ -27,7 +27,7 @@
       justify-content: right;
       margin: 0;
       width: 100%;
-      color: blue;
+      color: $myEpiBlue;
     }
 
     .ham {
@@ -48,7 +48,7 @@
     .line {
       fill: none;
       transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-      stroke: blue;
+      stroke: $myEpiBlue;
       stroke-width: 5.5;
       stroke-linecap: round;
     }
@@ -71,12 +71,12 @@
   }
   /*********************************************************************************/
   .sixth {
-    background-color: rgb(23, 148, 254);
+    background-color: $myBlue;
   }
 
   .sixth p,
   .sixth h2 {
-    color: white;
+    color: $myWhite;
   }
 
   /*********************************************************************************/

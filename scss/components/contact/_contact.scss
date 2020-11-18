@@ -1,25 +1,25 @@
 .contact {
   .second {
-    background-color: rgb(23, 148, 254);
-    color: white;
+    background-color: $myBlue;
+    color: $myWhite;
   }
 
   /*********************************************************************************/
   .third {
     .btn {
-      background-color: white;
-      color: rgb(23, 148, 254);
+      background-color: $myWhite;
+      color: $myBlue;
       width: 100%;
     }
   }
   /*********************************************************************************/
   .sixth {
-    background-color: rgb(23, 148, 254);
+    background-color: $myBlue;
   }
 
   .sixth p,
   .sixth h2 {
-    color: white;
+    color: $myWhite;
   }
 
   .address__text {
@@ -33,14 +33,14 @@
     width: 50%;
     height: auto;
     border-radius: 1.5em;
-    background-color: white;
+    background-color: $myWhite;
     font-size: 0.75em;
   }
   .address__text__r {
     line-height: 0.5em;
   }
   .coloring {
-    color: blue;
+    color: $myEpiBlue;
   }
 
   /*********************************************************************************/

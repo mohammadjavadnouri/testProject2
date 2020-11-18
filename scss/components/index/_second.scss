@@ -5,22 +5,22 @@
   }
 
   .second__title {
-    color: rgb(23, 148, 254);
+    color: $myBlue;
   }
   .second__button {
     border-radius: 5px;
-    border-color: rgb(23, 148, 254);
+    border-color: $myBlue;
     border-width: 1px;
-    color: rgb(23, 148, 254);
+    color: $myBlue;
     margin: 2px;
     padding: 10px 25px;
-    background-color: white;
+    background-color: $myWhite;
   }
 
   .second__button:hover {
     cursor: pointer;
-    background-color: rgb(23, 148, 254);
-    color: white;
+    background-color: $myBlue;
+    color: $myWhite;
   }
 
   .second__image {

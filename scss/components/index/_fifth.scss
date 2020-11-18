@@ -1,11 +1,11 @@
 /* Fifth Row********************************* */
 .index {
   .fifth {
-    background-color: rgb(1, 137, 255);
+    background-color: $myBlue;
   }
 
   .fifth__right {
-    color: white;
+    color: $myWhite;
     align-self: center;
   }
 
@@ -29,9 +29,9 @@
     height: 2em;
     width: 6em;
     border-radius: 8px;
-    background-color: rgb(23, 148, 254);
+    background-color: $myBlue;
     font-weight: bold;
-    color: white;
+    color: $myWhite;
   }
 
   .fifth button:hover {

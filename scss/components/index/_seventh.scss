@@ -1,11 +1,11 @@
 /* Seventh Row********************************* */
 .index {
   .seventh {
-    background-color: rgb(23, 148, 254);
+    background-color: $myBlue;
   }
 
   .seventh p,
   .seventh h2 {
-    color: white;
+    color: $myWhite;
   }
 }

@@ -16,65 +16,61 @@
 
 .custom-nav-large {
   color: black;
-  border-bottom: solid #ffffff;
-  transition: 1s ease; }
+  border-bottom: solid white;
+  transition: 0.4s ease; }
 
 .custom-nav-large:hover {
-  color: dodgerblue;
-  border-bottom: solid dodgerblue; }
+  color: #1894ff;
+  border-bottom: solid #1894ff; }
 
 .custom-nav-small {
   color: black;
-  border-right: solid #ffffff;
-  transition: 1s ease; }
+  border-right: solid white;
+  transition: 0.4s ease; }
 
 .custom-nav-small:hover {
-  color: dodgerblue;
-  border-right: solid green;
+  color: #1894ff;
+  border-right: solid #00de9a;
   text-indent: 10px; }
 
 /*  footer*********************************************  */
 .custom-footer-links a {
   text-decoration: none;
   color: black;
-  border-right: solid #ffffff;
-  transition: 1s ease; }
+  border-right: solid white;
+  transition: 0.4s ease; }
 
 .custom-footer-links a:hover {
   text-decoration: none;
-  color: dodgerblue; }
+  color: #1894ff; }
 
 .custom-footer-links {
-  border-right: solid #ffffff;
-  transition: 1s ease; }
+  border-right: solid white;
+  transition: 0.4s ease; }
 
 .custom-footer-links:hover {
-  border-right: solid green;
+  border-right: solid #00de9a;
   text-indent: 10px; }
-
-.index {
-  /* thanks to Bootstrap4:
-  no style :) */ }
 
 /* second Row********************************* */
 .index .second__right {
   align-self: center; }
 
 .index .second__title {
-  color: #1794fe; }
+  color: #1894ff; }
 
 .index .second__button {
   border-radius: 5px;
-  border-color: #1794fe;
+  border-color: #1894ff;
   border-width: 1px;
-  color: #1794fe;
+  color: #1894ff;
   margin: 2px;
   padding: 10px 25px;
   background-color: white; }
 
 .index .second__button:hover {
   cursor: pointer;
-  background-color: #1794fe;
+  background-color: #1894ff;
   color: white; }
 
 .index .second__image {
@@ -112,8 +108,8 @@
   align-self: center; }
 
 .index .third__title {
-  color: #1794fe;
-  border-right: solid green;
+  color: #1894ff;
+  border-right: solid #00de9a;
   text-indent: 10px; }
 
 .index .third__lower {
@@ -132,15 +128,15 @@
 
 .index .third__lowerimage {
   border-radius: 5px;
-  box-shadow: 1px 1px 10px 1px #aad7ff;
+  box-shadow: 1px 1px 10px 1px #92bfe6;
   padding: 10px;
   width: 3rem;
   height: 3rem; }
 
 /* Fourth Row********************************* */
 .index .fourth__Header {
-  color: #1794fe;
-  border-right: solid green;
+  color: #1894ff;
+  border-right: solid #00de9a;
   text-indent: 10px; }
 
 .index .fourth__img {
@@ -157,7 +153,7 @@
 
 /* Fifth Row********************************* */
 .index .fifth {
-  background-color: #0189ff; }
+  background-color: #1894ff; }
 
 .index .fifth__right {
   color: white;
@@ -181,7 +177,7 @@
   height: 2em;
   width: 6em;
   border-radius: 8px;
-  background-color: #1794fe;
+  background-color: #1894ff;
   font-weight: bold;
   color: white; }
 
@@ -210,15 +206,15 @@
 /* Sixth Row********************************* */
 .index .sixth {
   border-radius: 3vw;
-  box-shadow: 1px 1px 10px 1px #aad7ff;
+  box-shadow: 1px 1px 10px 1px #92bfe6;
   background-image: url("../assets/Path15631.png");
   background-repeat: no-repeat;
   z-index: -1;
   top: -30px; }
 
 .index .sixth h1 {
-  color: #1794fe;
-  border-right: solid green; }
+  color: #1894ff;
+  border-right: solid #00de9a; }
 
 .index .sixth form {
   position: relative; }
@@ -231,7 +227,7 @@
   height: 3em;
   border-radius: 8px;
   outline: none;
-  border: solid #eeeded; }
+  border: solid white; }
 
 .index .sixth button {
   position: absolute;
@@ -241,58 +237,22 @@
   height: 2em;
   width: 7em;
   border-radius: 8px;
-  background-color: #1794fe;
+  background-color: #1894ff;
   font-weight: bold;
   color: white; }
 
 /* Seventh Row********************************* */
 .index .seventh {
-  background-color: #1794fe; }
+  background-color: #1894ff; }
 
 .index .seventh p,
 .index .seventh h2 {
   color: white; }
 
-/* Footer *************************** */
-.index .footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center; }
-
-.index .footer i {
-  color: blue;
-  font-size: 2em;
-  margin: 0.5rem;
-  text-decoration: none;
-  place-content: center; }
-
 .index .footer__storeimages {
   width: auto;
   height: 2rem;
   border-radius: 5px; }
-
-.index .footer h5,
-.index .footer p,
-.index .footer h4,
-.index .footer a {
-  transition: 0.5s ease;
-  border-right: solid white;
-  padding-right: 5px; }
-
-.index .footer p:hover {
-  border-right: solid green;
-  color: #1794fe;
-  cursor: pointer; }
-
-@media screen and (max-width: 648px) {
-  .index .footer {
-    display: grid;
-    grid-template-columns: 1fr; }
-  .index .footer h5,
-  .index .footer p,
-  .index .footer h4,
-  .index .footer a {
-    display: none; } }
 
 .about {
   /*********************************************************************************/
@@ -303,7 +263,7 @@
   .about .second__right {
     align-self: center; }
   .about .second__right h2 {
-    color: #1794fe; }
+    color: #1894ff; }
   .about .second__right form {
     position: relative; }
   .about .second__right input {
@@ -311,7 +271,7 @@
     height: 3em;
     border-radius: 8px;
     outline: none;
-    border: solid #eeeded; }
+    border: solid white; }
   .about .second__right button {
     position: absolute;
     left: 1em;
@@ -320,7 +280,7 @@
     height: 2em;
     width: 8em;
     border-radius: 8px;
-    background-color: #1794fe;
+    background-color: #1894ff;
     font-weight: bold;
     color: white; }
   .about .second__image {
@@ -332,16 +292,16 @@
     height: auto;
     align-items: center; }
   .about .third {
-    background-color: #1794fe;
+    background-color: #1894ff;
     color: white; }
   .about .fourth h3 {
-    color: #1794fe; }
+    color: #1894ff; }
   .about .fifth__right {
     border-radius: 3vw;
-    box-shadow: 1px 1px 10px 1px #aad7ff; }
+    box-shadow: 1px 1px 10px 1px #92bfe6; }
   .about .fifth__left {
     border-radius: 3vw;
-    box-shadow: 1px 1px 10px 1px #aad7ff; }
+    box-shadow: 1px 1px 10px 1px #92bfe6; }
   .about .fifth .img1 {
     width: 5.5em;
     height: auto; }
@@ -349,7 +309,7 @@
     width: 4em;
     height: auto; }
   .about .sixth {
-    background-color: #1794fe; }
+    background-color: #1894ff; }
   .about .sixth p,
   .about .sixth h2 {
     color: white; }
@@ -363,14 +323,14 @@
   /*********************************************************************************/
   /*********************************************************************************/ }
   .contact .second {
-    background-color: #1794fe;
+    background-color: #1894ff;
     color: white; }
   .contact .third .btn {
     background-color: white;
-    color: #1794fe;
+    color: #1894ff;
     width: 100%; }
   .contact .sixth {
-    background-color: #1794fe; }
+    background-color: #1894ff; }
   .contact .sixth p,
   .contact .sixth h2 {
     color: white; }
@@ -390,7 +350,7 @@
   .contact .address__text__r {
     line-height: 0.5em; }
   .contact .coloring {
-    color: blue; }
+    color: #2361b5; }
   .contact .footer__storeimages {
     width: auto;
     height: 2rem;
@@ -402,7 +362,7 @@
   /*********************************************************************************/
   /*********************************************************************************/ }
   .faq .second {
-    background-color: #1794fe;
+    background-color: #1894ff;
     color: white; }
   .faq .fourth__img {
     width: 15em;
@@ -420,7 +380,7 @@
     justify-content: right;
     margin: 0;
     width: 100%;
-    color: blue; }
+    color: #2361b5; }
   .faq .fifth .ham {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -436,7 +396,7 @@
   .faq .fifth .line {
     fill: none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: blue;
+    stroke: #2361b5;
     stroke-width: 5.5;
     stroke-linecap: round; }
   .faq .fifth .ham1 .top {
@@ -450,7 +410,7 @@
   .faq .fifth .card-body {
     text-indent: 2vw; }
   .faq .sixth {
-    background-color: #1794fe; }
+    background-color: #1894ff; }
   .faq .sixth p,
   .faq .sixth h2 {
     color: white; }

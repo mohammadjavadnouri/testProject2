@@ -24,8 +24,8 @@
     align-self: center;
   }
   .third__title {
-    color: rgb(23, 148, 254);
-    border-right: solid green;
+    color: $myBlue;
+    border-right: solid $myGreen;
     text-indent: 10px;
   }
 
@@ -48,7 +48,7 @@
 
   .third__lowerimage {
     border-radius: 5px;
-    box-shadow: 1px 1px 10px 1px rgb(170, 215, 255);
+    box-shadow: 1px 1px 10px 1px $myShadow;
     padding: 10px;
     width: 3rem;
     height: 3rem;

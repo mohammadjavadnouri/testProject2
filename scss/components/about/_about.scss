@@ -4,7 +4,7 @@
   }
 
   .second__right h2 {
-    color: rgb(23, 148, 254);
+    color: $myBlue;
   }
 
   .second__right form {
@@ -16,7 +16,7 @@
     height: 3em;
     border-radius: 8px;
     outline: none;
-    border: solid rgb(238, 237, 237);
+    border: solid $myWhite;
   }
 
   .second__right button {
@@ -27,9 +27,9 @@
     height: 2em;
     width: 8em;
     border-radius: 8px;
-    background-color: rgb(23, 148, 254);
+    background-color: $myBlue;
     font-weight: bold;
-    color: white;
+    color: $myWhite;
   }
 
   .second__image {
@@ -43,23 +43,23 @@
   }
   /*********************************************************************************/
   .third {
-    background-color: rgb(23, 148, 254);
-    color: white;
+    background-color: $myBlue;
+    color: $myWhite;
   }
   /*********************************************************************************/
   .fourth h3 {
-    color: rgb(23, 148, 254);
+    color: $myBlue;
   }
   /*********************************************************************************/
 
   .fifth__right {
     border-radius: 3vw;
-    box-shadow: 1px 1px 10px 1px rgb(170, 215, 255);
+    box-shadow: 1px 1px 10px 1px $myShadow;
   }
 
   .fifth__left {
     border-radius: 3vw;
-    box-shadow: 1px 1px 10px 1px rgb(170, 215, 255);
+    box-shadow: 1px 1px 10px 1px $myShadow;
   }
 
   .fifth .img1 {
@@ -73,12 +73,12 @@
   }
   /*********************************************************************************/
   .sixth {
-    background-color: rgb(23, 148, 254);
+    background-color: $myBlue;
   }
 
   .sixth p,
   .sixth h2 {
-    color: white;
+    color: $myWhite;
   }
 
   /*********************************************************************************/

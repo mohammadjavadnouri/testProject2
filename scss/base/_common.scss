@@ -1,45 +1,45 @@
 .custom-nav-large {
-  color: black;
-  border-bottom: solid #ffffff;
-  transition: 1s ease;
+  color: $myBlack;
+  border-bottom: solid $myWhite;
+  transition: 0.4s ease;
 }
 
 .custom-nav-large:hover {
-  color: dodgerblue;
-  border-bottom: solid dodgerblue;
+  color: $myBlue;
+  border-bottom: solid $myBlue;
 }
 
 .custom-nav-small {
-  color: black;
-  border-right: solid #ffffff;
-  transition: 1s ease;
+  color: $myBlack;
+  border-right: solid $myWhite;
+  transition: 0.4s ease;
 }
 
 .custom-nav-small:hover {
-  color: dodgerblue;
-  border-right: solid green;
+  color: $myBlue;
+  border-right: solid $myGreen;
   text-indent: 10px;
 }
 
 /*  footer*********************************************  */
 .custom-footer-links a {
   text-decoration: none;
-  color: black;
-  border-right: solid #ffffff;
-  transition: 1s ease;
+  color: $myBlack;
+  border-right: solid $myWhite;
+  transition: 0.4s ease;
 }
 
 .custom-footer-links a:hover {
   text-decoration: none;
-  color: dodgerblue;
+  color: $myBlue;
 }
 
 .custom-footer-links {
-  border-right: solid #ffffff;
-  transition: 1s ease;
+  border-right: solid $myWhite;
+  transition: 0.4s ease;
 }
 
 .custom-footer-links:hover {
-  border-right: solid green;
+  border-right: solid $myGreen;
   text-indent: 10px;
 }
