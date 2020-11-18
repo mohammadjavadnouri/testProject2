@@ -52,72 +52,9 @@
   border-right: solid green;
   text-indent: 10px; }
 
-.index .mynav {
-  display: flex;
-  text-align: right;
-  justify-content: space-between; }
-
-.index .nav__image {
-  width: auto;
-  height: auto; }
-
-.index .mynav a {
-  border: none;
-  border-bottom: solid #ffffff;
-  text-decoration: none;
-  transition: 1s ease;
-  vertical-align: middle;
-  margin: 1vw;
-  white-space: nowrap;
-  color: black; }
-
-.index .mynav a:hover {
-  border-bottom: solid dodgerblue;
-  color: dodgerblue;
-  cursor: pointer; }
-
-.index .nav__icon {
-  display: none; }
-
-@media screen and (max-width: 648px) {
-  .index .mynav {
-    display: inline; }
-  .index .mynav a {
-    display: none; }
-  .index .mynav a.nav__icon {
-    float: none;
-    display: block; }
-  .index .nav__button {
-    display: none; } }
-
-@media screen and (max-width: 648px) {
-  .index .mynav.responsive {
-    position: relative; }
-  .index .mynav.responsive .nav__icon {
-    position: center;
-    color: red; }
-  .index .mynav.responsive a {
-    float: none;
-    display: block;
-    text-align: right; }
-  .index .mynav.responsive .nav__button {
-    width: 50%;
-    height: auto;
-    display: block; } }
-
-.index .nav__button {
-  color: #1794fe;
-  background-color: lightblue;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 25px;
-  width: 100%;
-  height: auto; }
-
-.index .nav__button:hover {
-  background-color: #1794fe;
-  cursor: pointer;
-  color: white; }
+.index {
+  /* thanks to Bootstrap4:
+  no style :) */ }
 
 /* second Row********************************* */
 .index .second__right {
