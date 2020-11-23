@@ -22,6 +22,11 @@
     background-color: $myBlue;
     color: $myWhite;
   }
+  .second__bg {
+    z-index: -1;
+    position: absolute;
+    right: 1px;
+  }
 
   .second__image {
     background-repeat: no-repeat;

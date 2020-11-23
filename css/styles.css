@@ -14,6 +14,7 @@
   html {
     font-size: 80%; } }
 
+/*  header*********************************************  */
 .custom-nav-large {
   color: black;
   border-bottom: solid white;
@@ -72,6 +73,11 @@
   cursor: pointer;
   background-color: #1894ff;
   color: white; }
+
+.index .second__bg {
+  z-index: -1;
+  position: absolute;
+  right: 1px; }
 
 .index .second__image {
   background-repeat: no-repeat;
